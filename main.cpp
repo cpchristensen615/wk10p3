@@ -3,18 +3,12 @@
 using namespace std;
 
 int main() {
-  cin >>  N;
+  int N;
   int biggest;
   int next;
   int count = 1;
   cin >> N;
-  
-  int array[N];
-  cin >> N;
-  
-  for (int i = 0; i < N; i++)
-    cin >> array[i];
-   
+  cin >> biggest;  
   for (int i = 0; i < (N-1); i++){
       cin >> next;
       if (next > biggest){
